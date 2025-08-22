@@ -10,7 +10,7 @@ import java.util.Objects;
 public class FileValidators {
 @Value("${pdf.upload.max-file-size}")
  private  Integer MaxSize;
-
+@SneakyThrows
     public  void validatePdfFile(MultipartFile file) {
         if (Objects.isNull(file) || file.isEmpty()) {
             throw new ApiException("File is required", HttpStatus.BAD_REQUEST);
