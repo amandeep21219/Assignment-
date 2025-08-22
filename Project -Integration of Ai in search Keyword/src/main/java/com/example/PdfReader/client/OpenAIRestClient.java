@@ -66,7 +66,7 @@ public class OpenAIRestClient {
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
 
-        // ✅ FIXED: Proper Authorization header format
+    
         if (apiKey != null && !apiKey.trim().isEmpty()) {
             headers.set("Authorization", "Bearer " + apiKey);
             log.debug("[OpenAIRestClient] :: createHeaders :: Authorization header set");
