@@ -11,3 +11,5 @@ Upload API: PDF → Extract text by pages → Store in memory with UUID Search A
 API COLLECTION
 
 https://swxedcrftgbyhj.postman.co/workspace/swxedcrftgbyhj-Workspace~fb9381a2-2574-4d10-899f-0e7b0dd9013c/collection/32656590-34e54ae3-1fb3-4486-89c6-3e49aae73844?action=share&source=copy-link&creator=32656590
+
+Refer to the Folder named - Project -Integration of Ai in search Keyword with pagination for code
